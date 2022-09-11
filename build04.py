@@ -37,7 +37,7 @@ last = " Doe"
 print(tabIn + "{0}{1}{2} ?".format(first, middle, last))
 print(tabIn + "{0}{2}?".format(first, middle, last))
 print(tabIn + "Mr./Ms. {0}{1}{2}?".format(first, middle, last))
-print(tabIn + "Dear {0}".format(first, middle, last) + "? \n or")
+print(tabIn + "Dear {0} ? \n or".format(first, middle, last))
 print(tabIn + "{2},{0}{1} ?\n".format(first, middle, last))
 
 # Archibald Montague Abercrombie
@@ -47,7 +47,7 @@ last = " Abercrombie"
 print(tabIn + "{0}{1}{2} ?".format(first, middle, last))
 print(tabIn + "{0}{2}?".format(first, middle, last))
 print(tabIn + "Mr./Ms.{0}{1}{2}?".format(first, middle, last))
-print(tabIn + "Dear {0}".format(first, middle, last) + "? \n or")
+print(tabIn + "Dear {0} ? \n or".format(first, middle, last))
 print(tabIn + "{2},{0}{1} ?\n".format(first, middle, last))
 
 # Cleopatra Anastasia Montgomery 
@@ -57,5 +57,5 @@ last = " Montgomery"
 print(tabIn + "{0}{1}{2} ?".format(first, middle, last))
 print(tabIn + "{0}{2}?".format(first, middle, last))
 print(tabIn + "Mr./Ms. {0}{1}{2}?".format(first, middle, last))
-print(tabIn + "Dear {0}".format(first, middle, last) + "? \n or")
+print(tabIn + "Dear {0} ? \n or".format(first, middle, last))
 print(tabIn + "{2},{0}{1} ?\n".format(first, middle, last))
