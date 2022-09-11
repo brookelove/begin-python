@@ -13,3 +13,16 @@ Do you want to be addressed as ...
 or 
 .......................................======>Doe, Jane Margaret?
 '''
+# postcondition 01
+my_str = "\nGreeting from a beginning Python programmer. \nDo you want to be addressed as ..."
+print(my_str)
+
+#post condition 02
+tabIn = ("....................======>")
+
+# print that variable multiple times
+print(tabIn + "Jane Margaret Doe?")
+print(tabIn + "Jane Doe?")
+print(tabIn + "Mr./Ms. Jane Margaret Doe?")
+print(tabIn + "Dear Jane?\nor")
+print(tabIn + "Doe, Jane Margaret?")
